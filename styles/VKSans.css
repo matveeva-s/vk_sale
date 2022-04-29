@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'VK Sans Text';
+    src: url('./fonts/VK_Sans_Text_13pt_Regular.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'VK Sans Text';
+    src: url('./fonts/VK_Sans_Text_13pt_Light.woff') format('woff');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'VK Sans Text';
+    src: url('./fonts/VK_Sans_Text_13pt_Medium.woff') format('woff');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'VK Sans Text';
+    src: url('./fonts/VK_Sans_Text_13pt_DemiBold.woff') format('woff');
+    font-weight: bold;
+}
+
+/*  для заголовков  */
+
+@font-face {
+    font-family: 'VK Sans Display';
+    src: url('./fonts/VK_Sans_Display_Regular.woff') format('woff');
+    src: url('./fonts/VK_Sans_Display_Regular.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'VK Sans Display';
+    src: url('./fonts/VK_Sans_Display_Light.woff') format('woff');
+    src: url('./fonts/VK_Sans_Display_Light.woff2') format('woff2');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'VK Sans Display';
+    src: url('./fonts/VK_Sans_Display_Medium.woff') format('woff');
+    src: url('./fonts/VK_Sans_Display_Medium.woff2') format('woff2');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'VK Sans Display';
+    src: url('./fonts/VK_Sans_Display_DemiBold.woff') format('woff');
+    src: url('./fonts/VK_Sans_Display_DemiBold.woff2') format('woff2');
+    font-weight: bold;
+}
+
+* {
+    font-family: "VK Sans Display";
+}
