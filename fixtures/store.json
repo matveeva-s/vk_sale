@@ -1,0 +1,81 @@
+[
+   {
+      "model": "store.category",
+      "pk": 1,
+      "fields": {
+         "name": "Вкусняхи"
+      }
+   },
+   {
+      "model": "store.category",
+      "pk": 2,
+      "fields": {
+         "name": "Разное"
+      }
+   },
+   {
+      "model":"store.item",
+      "pk":3,
+      "fields":{
+         "title":"Red Bull",
+         "description":"Безалкогольный, энергетический, газированный напиток. Не содержит консервантов. Предназначен для лиц старше 18 лет, студентов, спортсменов, представителей экстремальных профессий, а также во время длительных автомобильных поездок.",
+         "category": 1,
+         "price_rub":100,
+         "price_coins":10,
+         "status":0,
+         "seller":7,
+         "buyer":null,
+         "created_at":"2022-04-23T17:58:50.632Z",
+         "updated_at":"2022-04-23T17:58:50.632Z"
+      }
+   },
+   {
+      "model":"store.item",
+      "pk":4,
+      "fields":{
+         "title":"Шляпа фиолетовая",
+         "description":"Безупречная, мягкая и удобная. Создана специально для больших голов.",
+         "category": 2,
+         "price_rub":null,
+         "price_coins":500,
+         "status":2,
+         "seller":7,
+         "buyer":8,
+         "created_at":"2022-04-23T17:59:58.169Z",
+         "updated_at":"2022-04-23T17:59:58.169Z"
+      }
+   },
+   {
+      "model":"store.item",
+      "pk":5,
+      "fields":{
+         "title":"Наушники",
+         "description":"Это наушники совершенно нового класса. AirPods Pro исключительно комфортны, в них реализована технология активного шумоподавления, и можно даже выбрать вкладыши своего размера. Вы будете лучше чувствовать музыку, а не наушники.",
+         "price_rub":15000,
+         "price_coins":3000,
+         "status":0,
+         "seller":6,
+         "buyer":null,
+         "created_at":"2022-04-23T18:01:07.069Z",
+         "updated_at":"2022-04-23T18:01:07.069Z"
+      }
+   },
+   {
+      "model": "store.itemimage",
+      "pk": 1,
+      "fields": {
+         "item": 3,
+         "order": 0,
+         "image": "https://sc04.alicdn.com/kf/Ubdd8b0347fc646578634ad32e08d3565S.jpg"
+      }
+   },
+   {
+      "model": "store.itemimage",
+      "pk": 2,
+      "fields": {
+         "item": 3,
+         "order": 1,
+         "image": "https://supravl.ru/cache/gen/392x392_c%2Fpublic%2Fuploads%2Fimages%2Fe4a127a150788068312b4b7ad3800653_4f035f399b.jpg?s=tsvOcXNCR2WvR19MCmuPfw"
+      }
+   }
+]

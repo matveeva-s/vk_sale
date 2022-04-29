@@ -1,0 +1,71 @@
+[
+   {
+      "model":"users.user",
+      "pk":6,
+      "fields":{
+         "password":"pbkdf2_sha256$320000$QvtAATOzvYVbcmV34lxZKD$b8TZue6DIldDr+eYFaPiIBWxBBlVcfhslK+Ks6Gc8QM=",
+         "last_login":"2022-04-23T17:54:13Z",
+         "is_superuser":true,
+         "username":"s.matveeva",
+         "first_name":"Светлана",
+         "last_name":"Матвеева",
+         "email":"matveeva.svetlana@gmail.com",
+         "is_staff":true,
+         "is_active":true,
+         "date_joined":"2022-04-23T17:50:34Z",
+         "sys_id":30575,
+         "groups":[
+
+         ],
+         "user_permissions":[
+
+         ]
+      }
+   },
+   {
+      "model":"users.user",
+      "pk":7,
+      "fields":{
+         "password":"pbkdf2_sha256$320000$V95Zvi36qfG0uOoIsQvGyv$tvWvK0J61l670802Zb/iFQBdZ/6R7lYIb2Z753s/FcM=",
+         "last_login":null,
+         "is_superuser":true,
+         "username":"s.lihobabin",
+         "first_name":"Сергей",
+         "last_name":"Лихобабин",
+         "email":"",
+         "is_staff":true,
+         "is_active":true,
+         "date_joined":"2022-04-23T17:52:06Z",
+         "sys_id":3019,
+         "groups":[
+
+         ],
+         "user_permissions":[
+
+         ]
+      }
+   },
+   {
+      "model":"users.user",
+      "pk":8,
+      "fields":{
+         "password":"pbkdf2_sha256$320000$znwrE4JWo3HIWGHer6krvP$Hb8IvgCUYOrW4FRxvrYAl9nJbOLHANC3gntWFvkKsfs=",
+         "last_login":null,
+         "is_superuser":false,
+         "username":"a.elizarova",
+         "first_name":"Алена",
+         "last_name":"Елизарова",
+         "email":"",
+         "is_staff":true,
+         "is_active":true,
+         "date_joined":"2022-04-23T17:52:51Z",
+         "sys_id":12309,
+         "groups":[
+
+         ],
+         "user_permissions":[
+
+         ]
+      }
+   }
+]
