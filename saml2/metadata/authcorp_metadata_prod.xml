@@ -1,0 +1,51 @@
+<ns0:EntityDescriptor xmlns:ns0="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ns1="urn:oasis:names:tc:SAML:metadata:algsupport" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" entityID="https://authcorp.mail.ru/saml2/idp/metadata">
+<ns0:Extensions>
+<ns1:DigestMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#md5"/>
+<ns1:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#ripemd160"/>
+<ns1:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ns1:DigestMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#sha224"/>
+<ns1:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ns1:DigestMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#sha384"/>
+<ns1:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/>
+<ns1:SigningMethod Algorithm="http://www.w3.org/2000/09/xmldsig#dsa-sha1"/>
+<ns1:SigningMethod Algorithm="http://www.w3.org/2009/xmldsig11#dsa-sha256"/>
+<ns1:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-md5"/>
+<ns1:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-ripemd160"/>
+<ns1:SigningMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ns1:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha224"/>
+<ns1:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ns1:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha384"/>
+<ns1:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/>
+</ns0:Extensions>
+<ns0:IDPSSODescriptor WantAuthnRequestsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+<ns0:KeyDescriptor use="signing">
+<ns2:KeyInfo>
+<ns2:X509Data>
+<ns2:X509Certificate>
+MIIDYzCCAksCFFICXQpxnCcwek0aV3VOdGrx+waqMA0GCSqGSIb3DQEBCwUAMG0x CzAJBgNVBAYTAlJVMQ8wDQYDVQQIDAZNb3Njb3cxDzANBgNVBAcMBk1vc2NvdzEP MA0GA1UECgwGTWFpbFJ1MRAwDgYDVQQLDAdBdXRoYXBwMRkwFwYDVQQDDBBhdXRo Y29ycC5tYWlsLnJ1MCAXDTIwMDUyMjEzMjg1NVoYDzIxMjAwNDI4MTMyODU1WjBt MQswCQYDVQQGEwJSVTEPMA0GA1UECAwGTW9zY293MQ8wDQYDVQQHDAZNb3Njb3cx DzANBgNVBAoMBk1haWxSdTEQMA4GA1UECwwHQXV0aGFwcDEZMBcGA1UEAwwQYXV0 aGNvcnAubWFpbC5ydTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANSi xnGWAAkJgCP8+uxPFEFxP/ggqQzJoq5ZX/2rj40YzW3SmBYYsrGe9aKEMfTPF0WQ gqRc6wA+0hID3MIDXe+bREZifKpMPKWLOXBBz9hbDfSOtpFbEArCcsxNNueiOwVu KUQbYyWcEMTJHHgJl1twNMYhCPmgLOODriLaF9CS+QGdhp8OqfDwC2Jxj0vppUrZ ADVwRmWpwOkAOpTd8H0uQZVCRZR8jXqumAJqXsLbxgb6fTdMEPwT/LNkf/FwLsDy PZm5Sqx4K59/bLIrtoF0JGMmuGwnOsTkXn7TZxpxzw+Ecx/pGL9qxt3SS3gByP5O TUTUOdo/QX9I1GCHXScCAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAJ7GKB06dfDEg C1LV7s/iTwm0XAVYd4WHF6qJl7+1SLgz2FnbqeXR5XYy34JeQxlj2WyaElR+PeQY guGkybEO1jlFUrr7kuTI/XbBr6hbsDQHJ40UVGNaqYkD1iotcZue05m0tyT1hOQz 29Tx2Y1r7bKJTU57E5YMKimMqI4y11JuBmzHRzrBFd6wIr987rddcE4rEyPdpnEl K14VhYfF2ify4jB6r0eB2OPOkWc9BiwqSwG04T/OcrU0knYDxGlSr1J+pv3FyYMc 8hrnZlUnSDHw1z/xS+oMdBGFwsLYLB7qINl3FYPGB1r9um+gw/jN1ThFAfWOKjPy A8T1NJ+NFQ==
+</ns2:X509Certificate>
+</ns2:X509Data>
+</ns2:KeyInfo>
+</ns0:KeyDescriptor>
+<ns0:KeyDescriptor use="encryption">
+<ns2:KeyInfo>
+<ns2:X509Data>
+<ns2:X509Certificate>
+MIIDYzCCAksCFFICXQpxnCcwek0aV3VOdGrx+waqMA0GCSqGSIb3DQEBCwUAMG0x CzAJBgNVBAYTAlJVMQ8wDQYDVQQIDAZNb3Njb3cxDzANBgNVBAcMBk1vc2NvdzEP MA0GA1UECgwGTWFpbFJ1MRAwDgYDVQQLDAdBdXRoYXBwMRkwFwYDVQQDDBBhdXRo Y29ycC5tYWlsLnJ1MCAXDTIwMDUyMjEzMjg1NVoYDzIxMjAwNDI4MTMyODU1WjBt MQswCQYDVQQGEwJSVTEPMA0GA1UECAwGTW9zY293MQ8wDQYDVQQHDAZNb3Njb3cx DzANBgNVBAoMBk1haWxSdTEQMA4GA1UECwwHQXV0aGFwcDEZMBcGA1UEAwwQYXV0 aGNvcnAubWFpbC5ydTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANSi xnGWAAkJgCP8+uxPFEFxP/ggqQzJoq5ZX/2rj40YzW3SmBYYsrGe9aKEMfTPF0WQ gqRc6wA+0hID3MIDXe+bREZifKpMPKWLOXBBz9hbDfSOtpFbEArCcsxNNueiOwVu KUQbYyWcEMTJHHgJl1twNMYhCPmgLOODriLaF9CS+QGdhp8OqfDwC2Jxj0vppUrZ ADVwRmWpwOkAOpTd8H0uQZVCRZR8jXqumAJqXsLbxgb6fTdMEPwT/LNkf/FwLsDy PZm5Sqx4K59/bLIrtoF0JGMmuGwnOsTkXn7TZxpxzw+Ecx/pGL9qxt3SS3gByP5O TUTUOdo/QX9I1GCHXScCAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAJ7GKB06dfDEg C1LV7s/iTwm0XAVYd4WHF6qJl7+1SLgz2FnbqeXR5XYy34JeQxlj2WyaElR+PeQY guGkybEO1jlFUrr7kuTI/XbBr6hbsDQHJ40UVGNaqYkD1iotcZue05m0tyT1hOQz 29Tx2Y1r7bKJTU57E5YMKimMqI4y11JuBmzHRzrBFd6wIr987rddcE4rEyPdpnEl K14VhYfF2ify4jB6r0eB2OPOkWc9BiwqSwG04T/OcrU0knYDxGlSr1J+pv3FyYMc 8hrnZlUnSDHw1z/xS+oMdBGFwsLYLB7qINl3FYPGB1r9um+gw/jN1ThFAfWOKjPy A8T1NJ+NFQ==
+</ns2:X509Certificate>
+</ns2:X509Data>
+</ns2:KeyInfo>
+</ns0:KeyDescriptor>
+<ns0:NameIDFormat>
+urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress
+</ns0:NameIDFormat>
+<ns0:NameIDFormat>
+urn:oasis:names:tc:SAML:2.0:nameid-format:transient
+</ns0:NameIDFormat>
+<ns0:NameIDFormat>
+urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified
+</ns0:NameIDFormat>
+<ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://authcorp.mail.ru/saml2/idp/sso/"/>
+<ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://authcorp.mail.ru/saml2/idp/sso/"/>
+</ns0:IDPSSODescriptor>
+</ns0:EntityDescriptor>
